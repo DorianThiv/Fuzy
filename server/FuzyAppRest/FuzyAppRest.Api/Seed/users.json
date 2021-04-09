@@ -1,0 +1,15 @@
+[
+  {
+    "Created": "1/1/2018",
+    "Modified": "1/1/2018",
+    "FirstName": "Fuzy",
+    "LastName": "Fuzy",
+    "UserName": "fuzy@fuzy.com",
+    "Email": "fuzy@fuzy.com",
+    "Description": "Default user",
+    "IsAdminRole": true,
+    "Roles": "Administrator",
+    "IsActive": true,
+    "Password": "x4T0wMd1oKOOOPNHACDjZg==" // fuzy
+  }
+]
