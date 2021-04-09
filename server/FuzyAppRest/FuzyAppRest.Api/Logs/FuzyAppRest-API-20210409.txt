@@ -2275,3 +2275,896 @@ WHERE [u].[UserName] = @__login_Username_0"
 ===> 2021-04-09 14:44:33.807 +02:00 [Debug] Connection id ""0HM7RAKL981QM"" completed keep alive response.
 ===> 2021-04-09 14:44:33.810 +02:00 [Debug] '"FuzyAppRestContext"' disposed.
 ===> 2021-04-09 14:44:33.812 +02:00 [Information] Request finished HTTP/1.1 POST http://localhost:44342/api/login application/json 62 - 200 481 application/json;+charset=utf-8 434.6040ms
+===> 2021-04-09 15:30:46.331 +02:00 [Information] Starting web host
+===> 2021-04-09 15:30:47.340 +02:00 [Information] User profile is available. Using '"C:\Users\doria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2021-04-09 15:30:47.455 +02:00 [Debug] Reading data from file '"C:\Users\doria\AppData\Local\ASP.NET\DataProtection-Keys\key-bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b.xml"'.
+===> 2021-04-09 15:30:47.504 +02:00 [Debug] Reading data from file '"C:\Users\doria\AppData\Local\ASP.NET\DataProtection-Keys\key-cb846188-875a-4cec-b700-d76fb2565479.xml"'.
+===> 2021-04-09 15:30:47.521 +02:00 [Debug] Found key {bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b}.
+===> 2021-04-09 15:30:47.543 +02:00 [Debug] Found key {cb846188-875a-4cec-b700-d76fb2565479}.
+===> 2021-04-09 15:30:47.573 +02:00 [Debug] Considering key {bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b} with expiration date 2021-07-05 14:32:53Z as default key.
+===> 2021-04-09 15:30:47.714 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-04-09 15:30:47.725 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2021-04-09 15:30:47.732 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-04-09 15:30:47.747 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2021-04-09 15:30:47.756 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2021-04-09 15:30:47.774 +02:00 [Debug] Using key {bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b} as the default key.
+===> 2021-04-09 15:30:47.780 +02:00 [Debug] Key ring with default key {bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b} was loaded during application startup.
+===> 2021-04-09 15:30:47.836 +02:00 [Information] Startup::Configure
+===> 2021-04-09 15:30:48.090 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+===> 2021-04-09 15:30:48.150 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2021-04-09 15:30:48.565 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2021-04-09 15:30:48.688 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies', configuration added for 'Proxies:UseChangeTrackingProxies'".
+===> 2021-04-09 15:30:50.368 +02:00 [Information] Entity Framework Core "5.0.0" initialized '"FuzyAppRestContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-04-09 15:30:50.471 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:50.963 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:50.974 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-04-09 15:30:50.987 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (6ms).
+===> 2021-04-09 15:30:51.003 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-04-09 15:30:51.054 +02:00 [Information] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-04-09 15:30:51.062 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.072 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.081 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2021-04-09 15:30:51.084 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (2ms).
+===> 2021-04-09 15:30:51.086 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.093 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.097 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-04-09 15:30:51.133 +02:00 [Information] Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-04-09 15:30:51.137 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.141 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.209 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 15:30:51.210 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2021-04-09 15:30:51.212 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.215 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.218 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-04-09 15:30:51.230 +02:00 [Information] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-04-09 15:30:51.239 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 15:30:51.241 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.243 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.361 +02:00 [Debug] Compiling query expression: "
+"'"DbSet<User>()
+    .Any()"'
+===> 2021-04-09 15:30:51.565 +02:00 [Debug] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            Projection Mapping:
+            SELECT 1
+            FROM Users AS u)), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    FuzyAppRest.Entity.Context.FuzyAppRestContext, 
+    False, 
+    False
+)
+    .Single()"'
+===> 2021-04-09 15:30:51.608 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 15:30:51.611 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2021-04-09 15:30:51.612 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.615 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.617 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-04-09 15:30:51.623 +02:00 [Information] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-04-09 15:30:51.631 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 15:30:51.632 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.634 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:30:51.636 +02:00 [Debug] '"FuzyAppRestContext"' disposed.
+===> 2021-04-09 15:30:51.726 +02:00 [Information] Now listening on: "http://localhost:44342"
+===> 2021-04-09 15:30:51.729 +02:00 [Debug] Loaded hosting startup assembly "FuzyAppRest.Api"
+===> 2021-04-09 15:30:51.844 +02:00 [Debug] Connection id ""0HM7RBEOUIVF5"" accepted.
+===> 2021-04-09 15:30:51.844 +02:00 [Debug] Connection id ""0HM7RBEOUIVF4"" accepted.
+===> 2021-04-09 15:30:51.848 +02:00 [Debug] Connection id ""0HM7RBEOUIVF5"" started.
+===> 2021-04-09 15:30:51.849 +02:00 [Debug] Connection id ""0HM7RBEOUIVF4"" started.
+===> 2021-04-09 15:30:52.769 +02:00 [Debug] Connection id ""0HM7RBEOUIVF6"" accepted.
+===> 2021-04-09 15:30:52.772 +02:00 [Debug] Connection id ""0HM7RBEOUIVF6"" started.
+===> 2021-04-09 15:30:52.860 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/info - -
+===> 2021-04-09 15:30:52.869 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2021-04-09 15:30:53.006 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-04-09 15:30:53.330 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2021-04-09 15:30:53.401 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "FuzyAppRest.Api.Controllers.v1.InfoController" ("FuzyAppRest.Api").
+===> 2021-04-09 15:30:53.410 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-04-09 15:30:53.414 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-04-09 15:30:53.418 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 15:30:53.428 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-04-09 15:30:53.431 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2021-04-09 15:30:53.443 +02:00 [Debug] Executing controller factory for controller "FuzyAppRest.Api.Controllers.v1.InfoController" ("FuzyAppRest.Api")
+===> 2021-04-09 15:30:53.448 +02:00 [Debug] Executed controller factory for controller "FuzyAppRest.Api.Controllers.v1.InfoController" ("FuzyAppRest.Api")
+===> 2021-04-09 15:30:53.464 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2021-04-09 15:30:53.528 +02:00 [Information] Executed action "FuzyAppRest.Api.Controllers.v1.InfoController.ApiInfo (FuzyAppRest.Api)" in 78.4175ms
+===> 2021-04-09 15:30:53.536 +02:00 [Debug] Connection id ""0HM7RBEOUIVF6"" completed keep alive response.
+===> 2021-04-09 15:30:53.539 +02:00 [Information] Request finished HTTP/1.1 GET http://localhost:44342/api/info - - - 200 2365 text/html 691.4644ms
+===> 2021-04-09 15:32:14.119 +02:00 [Debug] Connection id ""0HM7RBEOUIVF7"" accepted.
+===> 2021-04-09 15:32:14.120 +02:00 [Debug] Connection id ""0HM7RBEOUIVF6"" received FIN.
+===> 2021-04-09 15:32:14.120 +02:00 [Debug] Connection id ""0HM7RBEOUIVF7"" started.
+===> 2021-04-09 15:32:14.126 +02:00 [Debug] Connection id ""0HM7RBEOUIVF8"" accepted.
+===> 2021-04-09 15:32:14.129 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/swagger - -
+===> 2021-04-09 15:32:14.132 +02:00 [Debug] Connection id ""0HM7RBEOUIVF8"" started.
+===> 2021-04-09 15:32:14.135 +02:00 [Debug] Connection id ""0HM7RBEOUIVF6"" disconnecting.
+===> 2021-04-09 15:32:14.135 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-04-09 15:32:14.136 +02:00 [Debug] Connection id ""0HM7RBEOUIVF6"" sending FIN because: ""The client closed the connection.""
+===> 2021-04-09 15:32:14.137 +02:00 [Debug] Request did not match any routes
+===> 2021-04-09 15:32:14.139 +02:00 [Debug] Request did not match any routes
+===> 2021-04-09 15:32:14.140 +02:00 [Debug] Connection id ""0HM7RBEOUIVF7"" completed keep alive response.
+===> 2021-04-09 15:32:14.140 +02:00 [Information] Request finished HTTP/1.1 GET http://localhost:44342/swagger - - - 404 0 - 12.5169ms
+===> 2021-04-09 15:32:14.142 +02:00 [Debug] Connection id ""0HM7RBEOUIVF6"" stopped.
+===> 2021-04-09 15:32:21.306 +02:00 [Debug] Connection id ""0HM7RBEOUIVF7"" reset.
+===> 2021-04-09 15:32:21.306 +02:00 [Debug] Connection id ""0HM7RBEOUIVF8"" reset.
+===> 2021-04-09 15:32:21.308 +02:00 [Debug] Connection id ""0HM7RBEOUIVF7"" sending FIN because: ""The client closed the connection.""
+===> 2021-04-09 15:32:21.309 +02:00 [Debug] Connection id ""0HM7RBEOUIVF8"" sending FIN because: ""The client closed the connection.""
+===> 2021-04-09 15:32:21.310 +02:00 [Debug] Connection id ""0HM7RBEOUIVF7"" disconnecting.
+===> 2021-04-09 15:32:21.311 +02:00 [Debug] Connection id ""0HM7RBEOUIVF8"" disconnecting.
+===> 2021-04-09 15:32:21.311 +02:00 [Debug] Connection id ""0HM7RBEOUIVF7"" stopped.
+===> 2021-04-09 15:32:21.312 +02:00 [Debug] Connection id ""0HM7RBEOUIVF8"" stopped.
+===> 2021-04-09 15:32:53.333 +02:00 [Information] Starting web host
+===> 2021-04-09 15:32:53.432 +02:00 [Information] User profile is available. Using '"C:\Users\doria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2021-04-09 15:32:53.467 +02:00 [Debug] Reading data from file '"C:\Users\doria\AppData\Local\ASP.NET\DataProtection-Keys\key-bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b.xml"'.
+===> 2021-04-09 15:32:53.486 +02:00 [Debug] Reading data from file '"C:\Users\doria\AppData\Local\ASP.NET\DataProtection-Keys\key-cb846188-875a-4cec-b700-d76fb2565479.xml"'.
+===> 2021-04-09 15:32:53.492 +02:00 [Debug] Found key {bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b}.
+===> 2021-04-09 15:32:53.500 +02:00 [Debug] Found key {cb846188-875a-4cec-b700-d76fb2565479}.
+===> 2021-04-09 15:32:53.509 +02:00 [Debug] Considering key {bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b} with expiration date 2021-07-05 14:32:53Z as default key.
+===> 2021-04-09 15:32:53.547 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-04-09 15:32:53.550 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2021-04-09 15:32:53.551 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-04-09 15:32:53.554 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2021-04-09 15:32:53.556 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2021-04-09 15:32:53.559 +02:00 [Debug] Using key {bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b} as the default key.
+===> 2021-04-09 15:32:53.560 +02:00 [Debug] Key ring with default key {bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b} was loaded during application startup.
+===> 2021-04-09 15:32:53.572 +02:00 [Information] Startup::Configure
+===> 2021-04-09 15:32:53.629 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+===> 2021-04-09 15:32:53.642 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2021-04-09 15:32:53.727 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2021-04-09 15:32:53.759 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies', configuration added for 'Proxies:UseChangeTrackingProxies'".
+===> 2021-04-09 15:32:54.153 +02:00 [Information] Entity Framework Core "5.0.0" initialized '"FuzyAppRestContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-04-09 15:32:54.185 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.353 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.359 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-04-09 15:32:54.364 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (2ms).
+===> 2021-04-09 15:32:54.371 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-04-09 15:32:54.388 +02:00 [Information] Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-04-09 15:32:54.392 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.395 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.398 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2021-04-09 15:32:54.399 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2021-04-09 15:32:54.401 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.403 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.404 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-04-09 15:32:54.417 +02:00 [Information] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-04-09 15:32:54.418 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.419 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.446 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 15:32:54.447 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2021-04-09 15:32:54.448 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.448 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.450 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-04-09 15:32:54.454 +02:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-04-09 15:32:54.457 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 15:32:54.458 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.458 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.498 +02:00 [Debug] Compiling query expression: "
+"'"DbSet<User>()
+    .Any()"'
+===> 2021-04-09 15:32:54.586 +02:00 [Debug] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            Projection Mapping:
+            SELECT 1
+            FROM Users AS u)), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    FuzyAppRest.Entity.Context.FuzyAppRestContext, 
+    False, 
+    False
+)
+    .Single()"'
+===> 2021-04-09 15:32:54.607 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 15:32:54.608 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2021-04-09 15:32:54.609 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.609 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.610 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-04-09 15:32:54.612 +02:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-04-09 15:32:54.614 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 15:32:54.615 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.615 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 15:32:54.617 +02:00 [Debug] '"FuzyAppRestContext"' disposed.
+===> 2021-04-09 15:32:54.656 +02:00 [Information] Now listening on: "http://localhost:44342"
+===> 2021-04-09 15:32:54.657 +02:00 [Debug] Loaded hosting startup assembly "FuzyAppRest.Api"
+===> 2021-04-09 15:32:54.779 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC7"" accepted.
+===> 2021-04-09 15:32:54.779 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC6"" accepted.
+===> 2021-04-09 15:32:54.781 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC7"" started.
+===> 2021-04-09 15:32:54.781 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC6"" started.
+===> 2021-04-09 15:32:54.821 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC6"" received FIN.
+===> 2021-04-09 15:32:54.821 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC7"" received FIN.
+===> 2021-04-09 15:32:54.830 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC6"" sending FIN because: ""The client closed the connection.""
+===> 2021-04-09 15:32:54.831 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC7"" sending FIN because: ""The client closed the connection.""
+===> 2021-04-09 15:32:54.834 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC6"" disconnecting.
+===> 2021-04-09 15:32:54.837 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC7"" disconnecting.
+===> 2021-04-09 15:32:54.840 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC7"" stopped.
+===> 2021-04-09 15:32:54.840 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC6"" stopped.
+===> 2021-04-09 15:32:55.242 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC8"" accepted.
+===> 2021-04-09 15:32:55.243 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC8"" started.
+===> 2021-04-09 15:32:55.264 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/info - -
+===> 2021-04-09 15:32:55.266 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2021-04-09 15:32:55.340 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-04-09 15:32:55.452 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2021-04-09 15:32:55.473 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "FuzyAppRest.Api.Controllers.v1.InfoController" ("FuzyAppRest.Api").
+===> 2021-04-09 15:32:55.476 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-04-09 15:32:55.478 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-04-09 15:32:55.479 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 15:32:55.481 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-04-09 15:32:55.482 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2021-04-09 15:32:55.486 +02:00 [Debug] Executing controller factory for controller "FuzyAppRest.Api.Controllers.v1.InfoController" ("FuzyAppRest.Api")
+===> 2021-04-09 15:32:55.490 +02:00 [Debug] Executed controller factory for controller "FuzyAppRest.Api.Controllers.v1.InfoController" ("FuzyAppRest.Api")
+===> 2021-04-09 15:32:55.494 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2021-04-09 15:32:55.515 +02:00 [Information] Executed action "FuzyAppRest.Api.Controllers.v1.InfoController.ApiInfo (FuzyAppRest.Api)" in 26.0042ms
+===> 2021-04-09 15:32:55.517 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC8"" completed keep alive response.
+===> 2021-04-09 15:32:55.521 +02:00 [Information] Request finished HTTP/1.1 GET http://localhost:44342/api/info - - - 200 2365 text/html 258.2227ms
+===> 2021-04-09 15:33:09.677 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC8"" disconnecting.
+===> 2021-04-09 15:33:09.678 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC8"" stopped.
+===> 2021-04-09 15:33:09.679 +02:00 [Debug] Connection id ""0HM7RBFTJ0QC8"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+===> 2021-04-09 16:08:08.939 +02:00 [Information] Starting web host
+===> 2021-04-09 16:08:09.071 +02:00 [Information] User profile is available. Using '"C:\Users\doria\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2021-04-09 16:08:09.116 +02:00 [Debug] Reading data from file '"C:\Users\doria\AppData\Local\ASP.NET\DataProtection-Keys\key-bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b.xml"'.
+===> 2021-04-09 16:08:09.141 +02:00 [Debug] Reading data from file '"C:\Users\doria\AppData\Local\ASP.NET\DataProtection-Keys\key-cb846188-875a-4cec-b700-d76fb2565479.xml"'.
+===> 2021-04-09 16:08:09.147 +02:00 [Debug] Found key {bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b}.
+===> 2021-04-09 16:08:09.154 +02:00 [Debug] Found key {cb846188-875a-4cec-b700-d76fb2565479}.
+===> 2021-04-09 16:08:09.161 +02:00 [Debug] Considering key {bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b} with expiration date 2021-07-05 14:32:53Z as default key.
+===> 2021-04-09 16:08:09.194 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-04-09 16:08:09.197 +02:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2021-04-09 16:08:09.198 +02:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-04-09 16:08:09.201 +02:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2021-04-09 16:08:09.203 +02:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2021-04-09 16:08:09.205 +02:00 [Debug] Using key {bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b} as the default key.
+===> 2021-04-09 16:08:09.207 +02:00 [Debug] Key ring with default key {bfe1b6ae-f7cd-4d95-bb06-369d1dfe7a6b} was loaded during application startup.
+===> 2021-04-09 16:08:09.234 +02:00 [Information] Startup::Configure
+===> 2021-04-09 16:08:09.319 +02:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+===> 2021-04-09 16:08:09.337 +02:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2021-04-09 16:08:09.466 +02:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2021-04-09 16:08:09.501 +02:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies', configuration added for 'Proxies:UseChangeTrackingProxies'".
+===> 2021-04-09 16:08:09.938 +02:00 [Information] Entity Framework Core "5.0.0" initialized '"FuzyAppRestContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-04-09 16:08:09.991 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.218 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.226 +02:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-04-09 16:08:10.232 +02:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (3ms).
+===> 2021-04-09 16:08:10.240 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-04-09 16:08:10.259 +02:00 [Information] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-04-09 16:08:10.263 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.267 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.271 +02:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2021-04-09 16:08:10.272 +02:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2021-04-09 16:08:10.273 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.275 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.276 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-04-09 16:08:10.292 +02:00 [Information] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-04-09 16:08:10.296 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.298 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.328 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 16:08:10.330 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2021-04-09 16:08:10.330 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.331 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.333 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-04-09 16:08:10.336 +02:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-04-09 16:08:10.340 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 16:08:10.341 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.343 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.396 +02:00 [Debug] Compiling query expression: "
+"'"DbSet<User>()
+    .Any()"'
+===> 2021-04-09 16:08:10.506 +02:00 [Debug] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            Projection Mapping:
+            SELECT 1
+            FROM Users AS u)), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    FuzyAppRest.Entity.Context.FuzyAppRestContext, 
+    False, 
+    False
+)
+    .Single()"'
+===> 2021-04-09 16:08:10.535 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 16:08:10.537 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2021-04-09 16:08:10.539 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.541 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.542 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-04-09 16:08:10.548 +02:00 [Information] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-04-09 16:08:10.554 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 16:08:10.554 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.555 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:10.558 +02:00 [Debug] '"FuzyAppRestContext"' disposed.
+===> 2021-04-09 16:08:10.618 +02:00 [Information] Now listening on: "http://localhost:44342"
+===> 2021-04-09 16:08:10.620 +02:00 [Debug] Loaded hosting startup assembly "FuzyAppRest.Api"
+===> 2021-04-09 16:08:11.103 +02:00 [Debug] Connection id ""0HM7RC3K9S159"" received FIN.
+===> 2021-04-09 16:08:11.103 +02:00 [Debug] Connection id ""0HM7RC3K9S158"" received FIN.
+===> 2021-04-09 16:08:11.114 +02:00 [Debug] Connection id ""0HM7RC3K9S159"" accepted.
+===> 2021-04-09 16:08:11.114 +02:00 [Debug] Connection id ""0HM7RC3K9S158"" accepted.
+===> 2021-04-09 16:08:11.116 +02:00 [Debug] Connection id ""0HM7RC3K9S159"" started.
+===> 2021-04-09 16:08:11.116 +02:00 [Debug] Connection id ""0HM7RC3K9S158"" started.
+===> 2021-04-09 16:08:11.127 +02:00 [Debug] Connection id ""0HM7RC3K9S158"" sending FIN because: ""The client closed the connection.""
+===> 2021-04-09 16:08:11.127 +02:00 [Debug] Connection id ""0HM7RC3K9S159"" sending FIN because: ""The client closed the connection.""
+===> 2021-04-09 16:08:11.132 +02:00 [Debug] Connection id ""0HM7RC3K9S159"" disconnecting.
+===> 2021-04-09 16:08:11.132 +02:00 [Debug] Connection id ""0HM7RC3K9S158"" disconnecting.
+===> 2021-04-09 16:08:11.149 +02:00 [Debug] Connection id ""0HM7RC3K9S158"" stopped.
+===> 2021-04-09 16:08:11.149 +02:00 [Debug] Connection id ""0HM7RC3K9S159"" stopped.
+===> 2021-04-09 16:08:11.816 +02:00 [Debug] Connection id ""0HM7RC3K9S15A"" accepted.
+===> 2021-04-09 16:08:11.818 +02:00 [Debug] Connection id ""0HM7RC3K9S15A"" started.
+===> 2021-04-09 16:08:11.873 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/info - -
+===> 2021-04-09 16:08:11.879 +02:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2021-04-09 16:08:11.994 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-04-09 16:08:12.179 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2021-04-09 16:08:12.223 +02:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "FuzyAppRest.Api.Controllers.v1.InfoController" ("FuzyAppRest.Api").
+===> 2021-04-09 16:08:12.230 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-04-09 16:08:12.233 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-04-09 16:08:12.236 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:08:12.244 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-04-09 16:08:12.250 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2021-04-09 16:08:12.262 +02:00 [Debug] Executing controller factory for controller "FuzyAppRest.Api.Controllers.v1.InfoController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:08:12.267 +02:00 [Debug] Executed controller factory for controller "FuzyAppRest.Api.Controllers.v1.InfoController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:08:12.279 +02:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2021-04-09 16:08:12.318 +02:00 [Information] Executed action "FuzyAppRest.Api.Controllers.v1.InfoController.ApiInfo (FuzyAppRest.Api)" in 51.0344ms
+===> 2021-04-09 16:08:12.325 +02:00 [Debug] Connection id ""0HM7RC3K9S15A"" completed keep alive response.
+===> 2021-04-09 16:08:12.330 +02:00 [Information] Request finished HTTP/1.1 GET http://localhost:44342/api/info - - - 200 2365 text/html 461.8836ms
+===> 2021-04-09 16:08:14.475 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"" accepted.
+===> 2021-04-09 16:08:14.481 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"" started.
+===> 2021-04-09 16:08:14.486 +02:00 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:44342/api/login - -
+===> 2021-04-09 16:08:14.491 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:08:14.493 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:08:14.496 +02:00 [Debug] The request is a preflight request.
+===> 2021-04-09 16:08:14.500 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"" completed keep alive response.
+===> 2021-04-09 16:08:14.507 +02:00 [Information] Request finished HTTP/1.1 OPTIONS http://localhost:44342/api/login - - - 204 - - 21.4485ms
+===> 2021-04-09 16:08:14.516 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44342/api/login application/json 37
+===> 2021-04-09 16:08:14.518 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:08:14.522 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:08:14.524 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-04-09 16:08:14.526 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/login"'
+===> 2021-04-09 16:08:14.552 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api").
+===> 2021-04-09 16:08:14.557 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-04-09 16:08:14.559 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-04-09 16:08:14.562 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:08:14.571 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-04-09 16:08:14.574 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:08:14.579 +02:00 [Debug] Executing controller factory for controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:08:14.890 +02:00 [Debug] Executed controller factory for controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:08:14.904 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' ...
+===> 2021-04-09 16:08:14.917 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' using the name '""' in request data ...
+===> 2021-04-09 16:08:14.922 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type '"application/json"'.
+===> 2021-04-09 16:08:14.927 +02:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type '"application/json"'.
+===> 2021-04-09 16:08:14.941 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"", Request id ""0HM7RC3K9S15B:00000003"": started reading request body.
+===> 2021-04-09 16:08:14.945 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"", Request id ""0HM7RC3K9S15B:00000003"": done reading request body.
+===> 2021-04-09 16:08:15.106 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:08:15.111 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:08:15.113 +02:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' ...
+===> 2021-04-09 16:08:15.120 +02:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:08:15.132 +02:00 [Information] Entity Framework Core "5.0.0" initialized '"FuzyAppRestContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-04-09 16:08:15.193 +02:00 [Debug] Compiling query expression: "
+"'"DbSet<User>()
+    .Where(x => x.UserName == __login_Username_0)"'
+===> 2021-04-09 16:08:15.300 +02:00 [Debug] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Created (DateTime) Required, 1], [Property: User.Description (string) MaxLength(255), 2], [Property: User.Email (string) Required MaxLength(30), 3], [Property: User.FirstName (string) Required MaxLength(20), 4], [Property: User.IsActive (bool) Required, 5], [Property: User.IsAdminRole (bool) Required, 6], [Property: User.LastName (string) Required MaxLength(20), 7], [Property: User.Modified (DateTime) Required, 8], [Property: User.Password (string), 9], [Property: User.Roles (string) MaxLength(255), 10], [Property: User.UserName (string) MaxLength(30), 11], }
+        SELECT u.Id, u.Created, u.Description, u.Email, u.FirstName, u.IsActive, u.IsAdminRole, u.LastName, u.Modified, u.Password, u.Roles, u.UserName
+        FROM Users AS u
+        WHERE u.UserName == @__login_Username_0), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    FuzyAppRest.Entity.Context.FuzyAppRestContext, 
+    False, 
+    False
+)"'
+===> 2021-04-09 16:08:15.328 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 16:08:15.332 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (3ms).
+===> 2021-04-09 16:08:15.339 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:15.340 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:15.349 +02:00 [Debug] Executing DbCommand [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2021-04-09 16:08:15.388 +02:00 [Information] Executed DbCommand ("43"ms) [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2021-04-09 16:08:15.396 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 16:08:15.397 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:15.399 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:15.403 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2021-04-09 16:08:15.411 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2021-04-09 16:08:15.413 +02:00 [Debug] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json", "application/problem+xml"]'.
+===> 2021-04-09 16:08:15.417 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/problem+json"' to write the response.
+===> 2021-04-09 16:08:15.419 +02:00 [Information] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+===> 2021-04-09 16:08:15.517 +02:00 [Information] Executed action "JWT.Controllers.LoginController.Create (FuzyAppRest.Api)" in 938.2274ms
+===> 2021-04-09 16:08:15.520 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"" completed keep alive response.
+===> 2021-04-09 16:08:15.522 +02:00 [Debug] '"FuzyAppRestContext"' disposed.
+===> 2021-04-09 16:08:15.525 +02:00 [Information] Request finished HTTP/1.1 POST http://localhost:44342/api/login application/json 37 - 401 162 application/problem+json;+charset=utf-8 1008.4998ms
+===> 2021-04-09 16:08:44.028 +02:00 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:44342/api/login - -
+===> 2021-04-09 16:08:44.030 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:08:44.031 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:08:44.031 +02:00 [Debug] The request is a preflight request.
+===> 2021-04-09 16:08:44.032 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"" completed keep alive response.
+===> 2021-04-09 16:08:44.032 +02:00 [Information] Request finished HTTP/1.1 OPTIONS http://localhost:44342/api/login - - - 204 - - 4.5931ms
+===> 2021-04-09 16:08:44.037 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44342/api/login application/json 46
+===> 2021-04-09 16:08:44.038 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:08:44.039 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:08:44.042 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-04-09 16:08:44.043 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/login"'
+===> 2021-04-09 16:08:44.045 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api").
+===> 2021-04-09 16:08:44.047 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-04-09 16:08:44.048 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-04-09 16:08:44.055 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:08:44.058 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-04-09 16:08:44.059 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:08:44.060 +02:00 [Debug] Executing controller factory for controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:08:44.061 +02:00 [Debug] Executed controller factory for controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:08:44.063 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' ...
+===> 2021-04-09 16:08:44.064 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' using the name '""' in request data ...
+===> 2021-04-09 16:08:44.065 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type '"application/json"'.
+===> 2021-04-09 16:08:44.065 +02:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type '"application/json"'.
+===> 2021-04-09 16:08:44.070 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"", Request id ""0HM7RC3K9S15B:00000005"": started reading request body.
+===> 2021-04-09 16:08:44.074 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"", Request id ""0HM7RC3K9S15B:00000005"": done reading request body.
+===> 2021-04-09 16:08:44.075 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:08:44.075 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:08:44.076 +02:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' ...
+===> 2021-04-09 16:08:44.077 +02:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:08:44.107 +02:00 [Information] Entity Framework Core "5.0.0" initialized '"FuzyAppRestContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-04-09 16:08:44.113 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 16:08:44.114 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-04-09 16:08:44.116 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:44.117 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:44.118 +02:00 [Debug] Executing DbCommand [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2021-04-09 16:08:44.119 +02:00 [Information] Executed DbCommand ("2"ms) [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2021-04-09 16:08:44.145 +02:00 [Debug] Context '"FuzyAppRestContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-04-09 16:08:44.186 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 16:08:44.188 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:44.189 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:08:44.231 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2021-04-09 16:08:44.234 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2021-04-09 16:08:44.235 +02:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2021-04-09 16:08:44.236 +02:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2021-04-09 16:08:44.237 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2021-04-09 16:08:44.239 +02:00 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+===> 2021-04-09 16:08:44.243 +02:00 [Information] Executed action "JWT.Controllers.LoginController.Create (FuzyAppRest.Api)" in 182.7275ms
+===> 2021-04-09 16:08:44.244 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"" completed keep alive response.
+===> 2021-04-09 16:08:44.246 +02:00 [Debug] '"FuzyAppRestContext"' disposed.
+===> 2021-04-09 16:08:44.247 +02:00 [Information] Request finished HTTP/1.1 POST http://localhost:44342/api/login application/json 46 - 200 481 application/json;+charset=utf-8 209.2510ms
+===> 2021-04-09 16:10:01.752 +02:00 [Debug] Connection id ""0HM7RC3K9S15A"" received FIN.
+===> 2021-04-09 16:10:01.759 +02:00 [Debug] Connection id ""0HM7RC3K9S15A"" sending FIN because: ""The client closed the connection.""
+===> 2021-04-09 16:10:01.761 +02:00 [Debug] Connection id ""0HM7RC3K9S15A"" disconnecting.
+===> 2021-04-09 16:10:01.769 +02:00 [Debug] Connection id ""0HM7RC3K9S15A"" stopped.
+===> 2021-04-09 16:13:53.952 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"" received FIN.
+===> 2021-04-09 16:13:53.961 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"" disconnecting.
+===> 2021-04-09 16:13:53.961 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"" stopped.
+===> 2021-04-09 16:13:53.983 +02:00 [Debug] Connection id ""0HM7RC3K9S15B"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+===> 2021-04-09 16:17:50.067 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" accepted.
+===> 2021-04-09 16:17:50.074 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" started.
+===> 2021-04-09 16:17:50.076 +02:00 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:44342/api/login - -
+===> 2021-04-09 16:17:50.077 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:17:50.079 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:17:50.080 +02:00 [Debug] The request is a preflight request.
+===> 2021-04-09 16:17:50.081 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:17:50.093 +02:00 [Information] Request finished HTTP/1.1 OPTIONS http://localhost:44342/api/login - - - 204 - - 17.0885ms
+===> 2021-04-09 16:17:50.096 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44342/api/login application/json 46
+===> 2021-04-09 16:17:50.097 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:17:50.098 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:17:50.100 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-04-09 16:17:50.101 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/login"'
+===> 2021-04-09 16:17:50.104 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api").
+===> 2021-04-09 16:17:50.110 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-04-09 16:17:50.111 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-04-09 16:17:50.112 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:17:50.114 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-04-09 16:17:50.115 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:17:50.117 +02:00 [Debug] Executing controller factory for controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:17:50.121 +02:00 [Debug] Executed controller factory for controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:17:50.123 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' ...
+===> 2021-04-09 16:17:50.125 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' using the name '""' in request data ...
+===> 2021-04-09 16:17:50.127 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type '"application/json"'.
+===> 2021-04-09 16:17:50.129 +02:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type '"application/json"'.
+===> 2021-04-09 16:17:50.131 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"", Request id ""0HM7RC3K9S15C:00000003"": started reading request body.
+===> 2021-04-09 16:17:50.133 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"", Request id ""0HM7RC3K9S15C:00000003"": done reading request body.
+===> 2021-04-09 16:17:50.138 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:17:50.140 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:17:50.143 +02:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' ...
+===> 2021-04-09 16:17:50.145 +02:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:19:03.765 +02:00 [Information] Entity Framework Core "5.0.0" initialized '"FuzyAppRestContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-04-09 16:19:03.767 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 16:19:03.767 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-04-09 16:19:03.768 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:19:03.772 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:19:03.773 +02:00 [Debug] Executing DbCommand [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2021-04-09 16:19:03.777 +02:00 [Information] Executed DbCommand ("4"ms) [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2021-04-09 16:19:03.780 +02:00 [Debug] Context '"FuzyAppRestContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-04-09 16:19:03.783 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 16:19:03.784 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:19:03.785 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:19:03.786 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2021-04-09 16:19:03.789 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2021-04-09 16:19:03.790 +02:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2021-04-09 16:19:03.790 +02:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2021-04-09 16:19:03.791 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2021-04-09 16:19:03.791 +02:00 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+===> 2021-04-09 16:19:03.792 +02:00 [Information] Executed action "JWT.Controllers.LoginController.Create (FuzyAppRest.Api)" in 73675.2312ms
+===> 2021-04-09 16:19:03.794 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:19:03.794 +02:00 [Debug] '"FuzyAppRestContext"' disposed.
+===> 2021-04-09 16:19:03.795 +02:00 [Information] Request finished HTTP/1.1 POST http://localhost:44342/api/login application/json 46 - 200 481 application/json;+charset=utf-8 73698.7212ms
+===> 2021-04-09 16:21:24.185 +02:00 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:44342/api/login - -
+===> 2021-04-09 16:21:24.186 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:21:24.187 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:21:24.189 +02:00 [Debug] The request is a preflight request.
+===> 2021-04-09 16:21:24.190 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:21:24.192 +02:00 [Information] Request finished HTTP/1.1 OPTIONS http://localhost:44342/api/login - - - 204 - - 11.9253ms
+===> 2021-04-09 16:21:24.194 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44342/api/login application/json 46
+===> 2021-04-09 16:21:24.195 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:21:24.196 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:21:24.196 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-04-09 16:21:24.197 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/login"'
+===> 2021-04-09 16:21:24.199 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api").
+===> 2021-04-09 16:21:24.201 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-04-09 16:21:24.202 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-04-09 16:21:24.204 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:21:24.207 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-04-09 16:21:24.210 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:21:24.212 +02:00 [Debug] Executing controller factory for controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:21:24.214 +02:00 [Debug] Executed controller factory for controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:21:24.216 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' ...
+===> 2021-04-09 16:21:24.218 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' using the name '""' in request data ...
+===> 2021-04-09 16:21:24.221 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type '"application/json"'.
+===> 2021-04-09 16:21:24.223 +02:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type '"application/json"'.
+===> 2021-04-09 16:21:24.226 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"", Request id ""0HM7RC3K9S15C:00000005"": started reading request body.
+===> 2021-04-09 16:21:24.228 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"", Request id ""0HM7RC3K9S15C:00000005"": done reading request body.
+===> 2021-04-09 16:21:24.230 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:21:24.232 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:21:24.234 +02:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' ...
+===> 2021-04-09 16:21:24.236 +02:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:21:24.238 +02:00 [Information] Entity Framework Core "5.0.0" initialized '"FuzyAppRestContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-04-09 16:21:24.240 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 16:21:24.241 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2021-04-09 16:21:24.242 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:21:24.249 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:21:24.251 +02:00 [Debug] Executing DbCommand [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2021-04-09 16:21:24.257 +02:00 [Information] Executed DbCommand ("6"ms) [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2021-04-09 16:21:24.261 +02:00 [Debug] Context '"FuzyAppRestContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-04-09 16:21:24.270 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 16:21:24.271 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:21:24.274 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:21:24.276 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2021-04-09 16:21:24.279 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2021-04-09 16:21:24.280 +02:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2021-04-09 16:21:24.282 +02:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2021-04-09 16:21:24.284 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2021-04-09 16:21:24.286 +02:00 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+===> 2021-04-09 16:21:24.288 +02:00 [Information] Executed action "JWT.Controllers.LoginController.Create (FuzyAppRest.Api)" in 76.4489ms
+===> 2021-04-09 16:21:24.290 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:21:24.291 +02:00 [Debug] '"FuzyAppRestContext"' disposed.
+===> 2021-04-09 16:21:24.292 +02:00 [Information] Request finished HTTP/1.1 POST http://localhost:44342/api/login application/json 46 - 200 481 application/json;+charset=utf-8 98.3767ms
+===> 2021-04-09 16:21:24.293 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/users - -
+===> 2021-04-09 16:21:24.295 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:21:24.296 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:21:24.296 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-04-09 16:21:24.297 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/users"'
+===> 2021-04-09 16:21:24.298 +02:00 [Debug] Action '"FuzyAppRest.Api.Controllers.UserAsyncController.Create (FuzyAppRest.Api)"' with id '"de047f30-c248-460e-81f4-04b205091149"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2021-04-09 16:21:24.304 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"UserAsync\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[FuzyAppRest.Domain.UserViewModel]] GetAll()" on controller "FuzyAppRest.Api.Controllers.UserAsyncController" ("FuzyAppRest.Api").
+===> 2021-04-09 16:21:24.307 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2021-04-09 16:21:24.309 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-04-09 16:21:24.310 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:21:24.313 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-04-09 16:21:24.315 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:21:24.327 +02:00 [Information] Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+===> 2021-04-09 16:21:24.329 +02:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2021-04-09 16:21:24.331 +02:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2021-04-09 16:21:24.334 +02:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2021-04-09 16:21:24.335 +02:00 [Information] Executed action "FuzyAppRest.Api.Controllers.UserAsyncController.GetAll (FuzyAppRest.Api)" in 16.0756ms
+===> 2021-04-09 16:21:24.336 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:21:24.338 +02:00 [Information] Request finished HTTP/1.1 GET http://localhost:44342/api/users - - - 401 0 - 44.2251ms
+===> 2021-04-09 16:22:08.982 +02:00 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:44342/api/login - -
+===> 2021-04-09 16:22:08.983 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:22:08.984 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:22:08.984 +02:00 [Debug] The request is a preflight request.
+===> 2021-04-09 16:22:08.986 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:22:08.992 +02:00 [Information] Request finished HTTP/1.1 OPTIONS http://localhost:44342/api/login - - - 204 - - 16.7167ms
+===> 2021-04-09 16:22:08.992 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44342/api/login application/json 46
+===> 2021-04-09 16:22:08.993 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:22:08.994 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:22:08.994 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-04-09 16:22:08.995 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/login"'
+===> 2021-04-09 16:22:08.995 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api").
+===> 2021-04-09 16:22:08.997 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-04-09 16:22:08.998 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-04-09 16:22:08.999 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:22:09.000 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-04-09 16:22:09.001 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:22:09.003 +02:00 [Debug] Executing controller factory for controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:22:09.004 +02:00 [Debug] Executed controller factory for controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:22:09.005 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' ...
+===> 2021-04-09 16:22:09.005 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' using the name '""' in request data ...
+===> 2021-04-09 16:22:09.006 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type '"application/json"'.
+===> 2021-04-09 16:22:09.007 +02:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type '"application/json"'.
+===> 2021-04-09 16:22:09.008 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"", Request id ""0HM7RC3K9S15C:00000008"": started reading request body.
+===> 2021-04-09 16:22:09.008 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"", Request id ""0HM7RC3K9S15C:00000008"": done reading request body.
+===> 2021-04-09 16:22:09.009 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:22:09.010 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:22:09.010 +02:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' ...
+===> 2021-04-09 16:22:09.011 +02:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:22:09.012 +02:00 [Information] Entity Framework Core "5.0.0" initialized '"FuzyAppRestContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-04-09 16:22:09.014 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 16:22:09.014 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-04-09 16:22:09.015 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:22:09.016 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:22:09.017 +02:00 [Debug] Executing DbCommand [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2021-04-09 16:22:09.018 +02:00 [Information] Executed DbCommand ("2"ms) [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2021-04-09 16:22:09.020 +02:00 [Debug] Context '"FuzyAppRestContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-04-09 16:22:09.022 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 16:22:09.022 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:22:09.023 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:22:09.024 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2021-04-09 16:22:09.025 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2021-04-09 16:22:09.026 +02:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2021-04-09 16:22:09.027 +02:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2021-04-09 16:22:09.027 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2021-04-09 16:22:09.028 +02:00 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+===> 2021-04-09 16:22:09.030 +02:00 [Information] Executed action "JWT.Controllers.LoginController.Create (FuzyAppRest.Api)" in 26.704ms
+===> 2021-04-09 16:22:09.031 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:22:09.031 +02:00 [Debug] '"FuzyAppRestContext"' disposed.
+===> 2021-04-09 16:22:09.032 +02:00 [Information] Request finished HTTP/1.1 POST http://localhost:44342/api/login application/json 46 - 200 481 application/json;+charset=utf-8 39.4400ms
+===> 2021-04-09 16:22:09.033 +02:00 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:44342/api/users - -
+===> 2021-04-09 16:22:09.034 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:22:09.034 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:22:09.035 +02:00 [Debug] The request is a preflight request.
+===> 2021-04-09 16:22:09.036 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:22:09.036 +02:00 [Information] Request finished HTTP/1.1 OPTIONS http://localhost:44342/api/users - - - 204 - - 3.3017ms
+===> 2021-04-09 16:22:09.037 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/users - -
+===> 2021-04-09 16:22:09.037 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:22:09.038 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:22:09.078 +02:00 [Information] Successfully validated the token.
+===> 2021-04-09 16:22:09.080 +02:00 [Debug] AuthenticationScheme: "Bearer" was successfully authenticated.
+===> 2021-04-09 16:22:09.081 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/users"'
+===> 2021-04-09 16:22:09.082 +02:00 [Debug] Action '"FuzyAppRest.Api.Controllers.UserAsyncController.Create (FuzyAppRest.Api)"' with id '"de047f30-c248-460e-81f4-04b205091149"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2021-04-09 16:22:09.086 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"UserAsync\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[FuzyAppRest.Domain.UserViewModel]] GetAll()" on controller "FuzyAppRest.Api.Controllers.UserAsyncController" ("FuzyAppRest.Api").
+===> 2021-04-09 16:22:09.090 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2021-04-09 16:22:09.091 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-04-09 16:22:09.092 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:22:09.093 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-04-09 16:22:09.094 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:22:09.096 +02:00 [Information] Authorization was successful.
+===> 2021-04-09 16:22:09.096 +02:00 [Debug] Executing controller factory for controller "FuzyAppRest.Api.Controllers.UserAsyncController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:22:09.097 +02:00 [Debug] Executed controller factory for controller "FuzyAppRest.Api.Controllers.UserAsyncController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:22:09.102 +02:00 [Information] Entity Framework Core "5.0.0" initialized '"FuzyAppRestContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-04-09 16:22:09.108 +02:00 [Debug] Compiling query expression: "
+"'"DbSet<User>()"'
+===> 2021-04-09 16:22:09.113 +02:00 [Debug] Generated query execution expression: "
+"'"queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Created (DateTime) Required, 1], [Property: User.Description (string) MaxLength(255), 2], [Property: User.Email (string) Required MaxLength(30), 3], [Property: User.FirstName (string) Required MaxLength(20), 4], [Property: User.IsActive (bool) Required, 5], [Property: User.IsAdminRole (bool) Required, 6], [Property: User.LastName (string) Required MaxLength(20), 7], [Property: User.Modified (DateTime) Required, 8], [Property: User.Password (string), 9], [Property: User.Roles (string) MaxLength(255), 10], [Property: User.UserName (string) MaxLength(30), 11], }
+        SELECT u.Id, u.Created, u.Description, u.Email, u.FirstName, u.IsActive, u.IsAdminRole, u.LastName, u.Modified, u.Password, u.Roles, u.UserName
+        FROM Users AS u), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    FuzyAppRest.Entity.Context.FuzyAppRestContext, 
+    False, 
+    False
+)"'
+===> 2021-04-09 16:22:09.127 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 16:22:09.128 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (1ms).
+===> 2021-04-09 16:22:09.132 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:22:09.135 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:22:09.136 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]"
+===> 2021-04-09 16:22:09.149 +02:00 [Information] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]"
+===> 2021-04-09 16:22:09.160 +02:00 [Debug] Context '"FuzyAppRestContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-04-09 16:22:09.164 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 16:22:09.166 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:22:09.167 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:22:09.179 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2021-04-09 16:22:09.181 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2021-04-09 16:22:09.182 +02:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2021-04-09 16:22:09.182 +02:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2021-04-09 16:22:09.183 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2021-04-09 16:22:09.184 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[FuzyAppRest.Domain.UserViewModel, FuzyAppRest.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+===> 2021-04-09 16:22:09.192 +02:00 [Information] Executed action "FuzyAppRest.Api.Controllers.UserAsyncController.GetAll (FuzyAppRest.Api)" in 97.005ms
+===> 2021-04-09 16:22:09.194 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:22:09.196 +02:00 [Debug] '"FuzyAppRestContext"' disposed.
+===> 2021-04-09 16:22:09.197 +02:00 [Information] Request finished HTTP/1.1 GET http://localhost:44342/api/users - - - 200 206 application/json;+charset=utf-8 159.4853ms
+===> 2021-04-09 16:24:08.820 +02:00 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:44342/api/login - -
+===> 2021-04-09 16:24:08.833 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:24:08.837 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:24:08.840 +02:00 [Debug] The request is a preflight request.
+===> 2021-04-09 16:24:08.841 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:24:08.846 +02:00 [Information] Request finished HTTP/1.1 OPTIONS http://localhost:44342/api/login - - - 204 - - 26.5986ms
+===> 2021-04-09 16:24:08.848 +02:00 [Information] Request starting HTTP/1.1 POST http://localhost:44342/api/login application/json 46
+===> 2021-04-09 16:24:08.849 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:24:08.851 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:24:08.852 +02:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-04-09 16:24:08.854 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/login"'
+===> 2021-04-09 16:24:08.858 +02:00 [Information] Route matched with "{action = \"Create\", controller = \"Login\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Create(LoginModel)" on controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api").
+===> 2021-04-09 16:24:08.862 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-04-09 16:24:08.864 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-04-09 16:24:08.870 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:24:08.875 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-04-09 16:24:08.879 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:24:08.889 +02:00 [Debug] Executing controller factory for controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:24:08.893 +02:00 [Debug] Executed controller factory for controller "JWT.Controllers.LoginController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:24:08.895 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' ...
+===> 2021-04-09 16:24:08.897 +02:00 [Debug] Attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' using the name '""' in request data ...
+===> 2021-04-09 16:24:08.900 +02:00 [Debug] Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter"' for content type '"application/json"'.
+===> 2021-04-09 16:24:08.904 +02:00 [Debug] Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter"' for content type '"application/json"'.
+===> 2021-04-09 16:24:08.908 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"", Request id ""0HM7RC3K9S15C:0000000C"": started reading request body.
+===> 2021-04-09 16:24:08.912 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"", Request id ""0HM7RC3K9S15C:0000000C"": done reading request body.
+===> 2021-04-09 16:24:08.917 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:24:08.921 +02:00 [Debug] Done attempting to bind parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:24:08.926 +02:00 [Debug] Attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"' ...
+===> 2021-04-09 16:24:08.931 +02:00 [Debug] Done attempting to validate the bound parameter '"login"' of type '"JWT.Controllers.LoginController+LoginModel"'.
+===> 2021-04-09 16:24:08.936 +02:00 [Information] Entity Framework Core "5.0.0" initialized '"FuzyAppRestContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-04-09 16:24:08.941 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 16:24:08.944 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2021-04-09 16:24:08.947 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:24:08.951 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:24:08.955 +02:00 [Debug] Executing DbCommand [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2021-04-09 16:24:08.968 +02:00 [Information] Executed DbCommand ("13"ms) [Parameters=["@__login_Username_0='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__login_Username_0"
+===> 2021-04-09 16:24:08.978 +02:00 [Debug] Context '"FuzyAppRestContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-04-09 16:24:08.986 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 16:24:08.987 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:24:08.989 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:24:08.991 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2021-04-09 16:24:08.994 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2021-04-09 16:24:08.995 +02:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2021-04-09 16:24:08.997 +02:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2021-04-09 16:24:08.997 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2021-04-09 16:24:09.001 +02:00 [Information] Executing "OkObjectResult", writing value of type '"<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+===> 2021-04-09 16:24:09.003 +02:00 [Information] Executed action "JWT.Controllers.LoginController.Create (FuzyAppRest.Api)" in 114.6041ms
+===> 2021-04-09 16:24:09.005 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:24:09.007 +02:00 [Debug] '"FuzyAppRestContext"' disposed.
+===> 2021-04-09 16:24:09.009 +02:00 [Information] Request finished HTTP/1.1 POST http://localhost:44342/api/login application/json 46 - 200 481 application/json;+charset=utf-8 161.1205ms
+===> 2021-04-09 16:24:09.011 +02:00 [Information] Request starting HTTP/1.1 OPTIONS http://localhost:44342/api/users - -
+===> 2021-04-09 16:24:09.013 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:24:09.014 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:24:09.016 +02:00 [Debug] The request is a preflight request.
+===> 2021-04-09 16:24:09.019 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:24:09.020 +02:00 [Information] Request finished HTTP/1.1 OPTIONS http://localhost:44342/api/users - - - 204 - - 9.2820ms
+===> 2021-04-09 16:24:09.024 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:44342/api/users - -
+===> 2021-04-09 16:24:09.025 +02:00 [Debug] The request has an origin header: '"http://localhost:4200"'.
+===> 2021-04-09 16:24:09.028 +02:00 [Information] CORS policy execution successful.
+===> 2021-04-09 16:24:09.030 +02:00 [Information] Successfully validated the token.
+===> 2021-04-09 16:24:09.031 +02:00 [Debug] AuthenticationScheme: "Bearer" was successfully authenticated.
+===> 2021-04-09 16:24:09.032 +02:00 [Debug] Request successfully matched the route with name 'null' and template '"api/users"'
+===> 2021-04-09 16:24:09.036 +02:00 [Debug] Action '"FuzyAppRest.Api.Controllers.UserAsyncController.Create (FuzyAppRest.Api)"' with id '"de047f30-c248-460e-81f4-04b205091149"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2021-04-09 16:24:09.042 +02:00 [Information] Route matched with "{action = \"GetAll\", controller = \"UserAsync\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[FuzyAppRest.Domain.UserViewModel]] GetAll()" on controller "FuzyAppRest.Api.Controllers.UserAsyncController" ("FuzyAppRest.Api").
+===> 2021-04-09 16:24:09.046 +02:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2021-04-09 16:24:09.049 +02:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-04-09 16:24:09.051 +02:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:24:09.056 +02:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-04-09 16:24:09.058 +02:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-04-09 16:24:09.063 +02:00 [Information] Authorization was successful.
+===> 2021-04-09 16:24:09.065 +02:00 [Debug] Executing controller factory for controller "FuzyAppRest.Api.Controllers.UserAsyncController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:24:09.070 +02:00 [Debug] Executed controller factory for controller "FuzyAppRest.Api.Controllers.UserAsyncController" ("FuzyAppRest.Api")
+===> 2021-04-09 16:24:09.072 +02:00 [Information] Entity Framework Core "5.0.0" initialized '"FuzyAppRestContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-04-09 16:24:09.078 +02:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-04-09 16:24:09.080 +02:00 [Debug] Created DbCommand for '"ExecuteReader"' (2ms).
+===> 2021-04-09 16:24:09.084 +02:00 [Debug] Opening connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:24:09.086 +02:00 [Debug] Opened connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:24:09.089 +02:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]"
+===> 2021-04-09 16:24:09.098 +02:00 [Information] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [u].[Id], [u].[Created], [u].[Description], [u].[Email], [u].[FirstName], [u].[IsActive], [u].[IsAdminRole], [u].[LastName], [u].[Modified], [u].[Password], [u].[Roles], [u].[UserName]
+FROM [Users] AS [u]"
+===> 2021-04-09 16:24:09.101 +02:00 [Debug] Context '"FuzyAppRestContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-04-09 16:24:09.103 +02:00 [Debug] A data reader was disposed.
+===> 2021-04-09 16:24:09.105 +02:00 [Debug] Closing connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:24:09.108 +02:00 [Debug] Closed connection to database '"FuzyAppRest"' on server '".\SQLEXPRESS"'.
+===> 2021-04-09 16:24:09.115 +02:00 [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+===> 2021-04-09 16:24:09.119 +02:00 [Debug] No information found on request to perform content negotiation.
+===> 2021-04-09 16:24:09.120 +02:00 [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+===> 2021-04-09 16:24:09.121 +02:00 [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+===> 2021-04-09 16:24:09.121 +02:00 [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"' and content type '"application/json"' to write the response.
+===> 2021-04-09 16:24:09.125 +02:00 [Information] Executing "ObjectResult", writing value of type '"System.Collections.Generic.List`1[[FuzyAppRest.Domain.UserViewModel, FuzyAppRest.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+===> 2021-04-09 16:24:09.129 +02:00 [Information] Executed action "FuzyAppRest.Api.Controllers.UserAsyncController.GetAll (FuzyAppRest.Api)" in 66.7384ms
+===> 2021-04-09 16:24:09.132 +02:00 [Debug] Connection id ""0HM7RC3K9S15C"" completed keep alive response.
+===> 2021-04-09 16:24:09.134 +02:00 [Debug] '"FuzyAppRestContext"' disposed.
+===> 2021-04-09 16:24:09.136 +02:00 [Information] Request finished HTTP/1.1 GET http://localhost:44342/api/users - - - 200 206 application/json;+charset=utf-8 112.4614ms
