@@ -1,0 +1,3 @@
+[submodule "client/src/app/shared/thy"]
+	path = client/src/app/shared/thy
+	url = https://github.com/DorianThiv/thy.git

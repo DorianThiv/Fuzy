@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { RestGetRequest, RestPostRequest } from './shared/services/network/models/rest-requests.class';
-import { NetworkService } from './shared/services/network/network.service';
-import { RestService } from './shared/services/network/rest.service';
+import { ThyRestGetRequest, ThyRestPostRequest } from './shared/thy/thy-network/models/thy-rest-requests.class';
+import { ThyNetworkService } from './shared/thy/thy-network/thy-network.service';
+import { ThyRestService } from './shared/thy/thy-network/thy-rest.service';
 
 @Component({
   selector: 'app-root',
@@ -14,15 +14,15 @@ export class AppComponent {
 
   public users: string[];
 
-  constructor(private restService: RestService, private networkService: NetworkService) {
+  constructor(private restService: ThyRestService, private networkService: ThyNetworkService) {
   }
 
   public async onSubmit() {
     if (this.login.username && this.login.password) {
-      const result: { token: string } = await this.restService.post(new RestPostRequest('login', this.login));
+      const result: { token: string } = await this.restService.post(new ThyRestPostRequest('login', this.login));
       if (result?.token) {
         this.networkService.token = result.token;
-        const users: any[] = await this.restService.get(new RestGetRequest('users'));
+        const users: any[] = await this.restService.get(new ThyRestGetRequest('users'));
         if (users) {
           this.users = users.map(u => u.email);
         }
