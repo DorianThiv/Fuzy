@@ -9,6 +9,10 @@ import { ThyButtonModule } from './shared/thy/thy-button/thy-button.module';
 import { ThyChart2Module } from './shared/thy/thy-chart2/thy-chart2.module';
 import { ThyLayoutModule } from './shared/thy/thy-layout/thy-layout.module';
 import { ThyFormFieldModule } from './shared/thy/thy-form-field/thy-form-field.module';
+import { ThyTranslateModule } from './shared/thy/thy-translate/thy-translate.module';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { ThyTranslateService } from './shared/thy/thy-translate';
 
 @NgModule({
   declarations: [
@@ -19,13 +23,21 @@ import { ThyFormFieldModule } from './shared/thy/thy-form-field/thy-form-field.m
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
+    MatButtonModule,
+    MatIconModule,
     ThyNetworkModule,
     ThyButtonModule,
     ThyChart2Module,
     ThyLayoutModule,
     ThyFormFieldModule,
+    ThyTranslateModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+  constructor(translateService: ThyTranslateService) {
+  }
+
+}

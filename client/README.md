@@ -30,3 +30,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ```ng new fuzy --directory=client --style=scss --skip-git=true --verbose=true```
 
+## Submodules
+
+### Thy
+
+Personal library [READEME.md](src/app/shared/thy/README.md)
+
+

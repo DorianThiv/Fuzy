@@ -1,11 +1,12 @@
 <h1>Fuzy testing</h1>
 
-<input placeholder="username" [(ngModel)]="login.username"/>
-<input placeholder="password" [(ngModel)]="login.password" type="password"/>
+<thy-form-field-input [label]="'@global-username'" [(value)]="login.username"></thy-form-field-input>
+<thy-form-field-input [label]="'@global-password'" [(value)]="login.password" [type]="'password'"></thy-form-field-input>
 
-<button type="submit" (click)="onSubmit()">Send</button>
+<button mat-button style="height: 100px;" class="ui-g-12" (click)="onSubmit()"><mat-icon>refresh</mat-icon></button>
 
 <p *ngFor="let user of users">
   {{ user }}
 </p>
+
 
